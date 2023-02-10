@@ -22,3 +22,15 @@
   display: flex;
   justify-content: center;
 }
+
+.menu-input{
+  width: 150px;
+  border: 0;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-all{
+  border-bottom: 1px solid black;
+  height: 25px;
+}

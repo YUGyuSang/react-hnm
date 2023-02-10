@@ -23,9 +23,9 @@ const Navbar = () => {
                 ))}
             </ul>
         
-            <div>
+            <div className='input-all'>
                 <FontAwesomeIcon icon={faSearch}/>
-                <input type='text'/>
+                <input className='menu-input' type='text' placeholder='제품검색'/>
             </div>
       </div>
     </div>
