@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className='menu-area'>
             <ul className='menu-list'>
-                {menuList.map((menu)=>(
+                {menuList.map((menu)=>( //map 함수를 사용해서 리스트를 가져온다.
                     <li>{menu}</li>
                 ))}
             </ul>
