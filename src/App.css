@@ -12,10 +12,12 @@
 .menu-list{
   display: flex;
   list-style: none;
+  margin: 0 auto;
 
 }
 .menu-list li{
   padding: 10px;
+  
 }
 
 .menu-area{
@@ -33,4 +35,9 @@
 .input-all{
   border-bottom: 1px solid black;
   height: 25px;
+  margin-left: auto;
+}
+
+.menu-1{
+  margin-right: auto;
 }
