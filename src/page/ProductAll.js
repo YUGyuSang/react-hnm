@@ -16,6 +16,7 @@ const getProducts= async () =>{
   return (
     <div>
       <ProductCard />
+      <ProductCard />
     </div>
   )
 }
