@@ -3,6 +3,7 @@ import {Form, Button, Container} from "react-bootstrap"
 import { useNavigate } from 'react-router-dom'
 
 const Login = ({setAuthenticate}) => {
+  console.log("test");
     const navigate = useNavigate();
     const loginUser = (event)=>{
         event.preventDefault(); // 새로고침 안하게 해주는 함수, form을 쓸 때 꼭 써주어여한다.
